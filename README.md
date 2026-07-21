@@ -1,4 +1,6 @@
-.
+### Customer Shopping Behavior Analysis
+
+
 ├── data/
 │   └── shopping_behavior_updated.csv        # Raw dataset (3,900 records, 18 columns)
 ├── notebooks/
@@ -82,46 +84,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 This project is licensed under the MIT License.
 """
 
-with open("README.md", "w") as f:
-f.write(readme_content)
-
-print("README.md written successfully.")
-
-
-```text?code_stdout&code_event_index=2
-README.md written successfully.
-
-Your Word documentation file (.docx) and GitHub README.md file have been created.
-
-Customer_Behavior_Analysis_Documentation
- DOCX 
-Open
-
-README
- MD 
-Open
-
-File Highlights
-1. Word Documentation (Customer_Behavior_Analysis_Documentation.docx)
-Styling & Layout: Deep Navy (#1F4E78) header accents, clean typography (Calibri / Consolas), custom-styled table padding, alternating backgrounds, and formatted code boxes.
-
-Content:
-
-Executive Summary: Overview of the dataset (3,900 customer records, 18 features).
-
-Data Pipeline & Preprocessing: Data profiling, column standardization, missing-value verifications, and age quantile binning (pd.qcut).
-
-Data Dictionary & Schema Table: Descriptions, types, and primary key definitions for MySQL deployment.
-
-10 Analytical SQL Queries: Includes business intent descriptions and SQL code blocks covering customer segmentation, revenue drivers, promo rates, window functions (ROW_NUMBER()), and cohort analytics.
-
-2. GitHub README (README.md)
-Badges & Visual Headers: Includes status shields (Python, Pandas, MySQL, Jupyter, License).
-
-Project Architecture: Clean repository structure diagram.
-
-Schema Summary Table: Markdown table mapping dataset columns to descriptions.
-
-Analytical Queries Overview: Concise explanations of all 10 analytical questions.
-
-Setup & Installation Instructions: Commands for setting up a virtual environment, installing dependencies, and running the SQL script in MySQL Workbench.
+Dataset: https://www.kaggle.com/datasets/ayeshasiddiqa123/customer-shopping-behavior-dataset
