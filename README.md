@@ -1,17 +1,4 @@
-### Customer Shopping Behavior Analysis
-
-
-├── data/
-│   └── shopping_behavior_updated.csv        # Raw dataset (3,900 records, 18 columns)
-├── notebooks/
-│   └── Customer_Behavior_Analysis.ipynb     # Jupyter Notebook containing Data Prep & Profiling
-├── sql/
-│   └── customer_behavior_queries.sql        # Complete MySQL script with schema & 10 analytical queries
-├── docs/
-│   └── Customer_Behavior_Analysis_Documentation.docx # Comprehensive Word Documentation
-├── README.md                                 # Project README file
-└── requirements.txt                          # Python dependencies list
-
+# Customer Shopping Behavior Analysis
 
 ---
 
